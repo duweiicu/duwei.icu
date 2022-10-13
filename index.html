@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh">
-    <head>
-        <meta http-equiv="refresh" content="0;url=/zh/" />
-    </head>
+    <head> </head>
 
-    <body></body>
+    <body>
+        <script>
+            if (!localStorage.getItem("language")) {
+                localStorage.setItem("language", "zh");
+            }
+            window.location.href = "/" + localStorage.getItem("language") + "/";
+        </script>
+    </body>
 </html>
