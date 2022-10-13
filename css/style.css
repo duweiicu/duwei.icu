@@ -781,7 +781,7 @@
 .markdown-body.override blockquote {
     color: #fff;
 }
-.language-menu[data-v-7711f32a] {
+.language-menu {
     position: absolute;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -795,15 +795,15 @@
     background-color: #de335e;
     padding: 0 2px;
 }
-.language-menu .other-languages[data-v-7711f32a] {
+.language-menu .other-languages {
     list-style: none;
     padding: 0;
     margin: 5px 0;
 }
-.language-menu .other-languages li[data-v-7711f32a] {
+.language-menu .other-languages li {
     padding: 3px 0;
 }
-.banner[data-v-4c410b5a] {
+.banner {
     margin: 20px 0;
     max-width: 500px;
     background-color: #f1045c;
@@ -813,20 +813,20 @@
     padding: 20px;
     cursor: pointer;
 }
-.banner .title[data-v-4c410b5a] {
+.banner .title {
     font-size: 26px;
     font-weight: 900;
 }
-.banner .subtitle[data-v-4c410b5a],
-.banner .title[data-v-4c410b5a] {
+.banner .subtitle,
+.banner .title {
     color: #fff;
     text-shadow: 0 0 0.5px #ff7b00;
 }
-.banner .subtitle[data-v-4c410b5a] {
+.banner .subtitle {
     font-size: 14px;
     font-weight: 700;
 }
-.banner .button[data-v-4c410b5a] {
+.banner .button {
     display: inline-block;
     border-radius: 2px;
     height: 20px;
@@ -876,10 +876,10 @@ svg {
 a {
     color: #fff;
 }
-.content[data-v-15d0b2f8] {
+.content {
     position: relative;
 }
-.content .button-wrapper[data-v-15d0b2f8] {
+.content .button-wrapper {
     position: absolute;
     top: 30px;
     right: 10px;
